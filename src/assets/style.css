@@ -1,0 +1,21 @@
+@import './styles/homePage.css';
+@import './styles/headerMenu.css';
+
+body {
+    font-family: var(--font-family);
+    margin: 0;
+}
+body.light-mode {
+    /* Light theme colors */
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --header-background-color: #B2BCC7; /* Light blue for header */
+    --left-side-background-color: #B2BCC7; /* Light blue for header */
+}  
+body.dark-mode {
+    /* Dark mode colors */
+    --background-color: #343a40;
+    --text-color: #ffffff;
+    --header-background-color: #2A313A; /* Dark blue for header */
+    --left-side-background-color: #2A313A; /* Dark blue for header */
+}

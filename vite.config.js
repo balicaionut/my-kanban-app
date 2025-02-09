@@ -15,4 +15,9 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  vue: {
+    compilerOptions: {
+      isCustomElement: (tag) => tag === 'img' // Or any other native tag you're using
+    }
+  },
 })

@@ -1,0 +1,28 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+.header-menu {
+    display: flex;
+    height: 48px;
+    background-color: var(--header-background-color);
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.main-content {
+    display: flex;
+    flex: 1;
+}
+.side-menu {
+    width: 160px;
+    background-color: var(--left-side-background-color);
+    padding: 10px;
+}
+.kanban-area {
+    flex: 1;
+    padding: 20px;
+}
