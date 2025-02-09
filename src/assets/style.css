@@ -1,5 +1,6 @@
 @import './styles/homePage.css';
 @import './styles/headerMenu.css';
+@import './styles/sideMenu.css';
 
 body {
     font-family: var(--font-family);

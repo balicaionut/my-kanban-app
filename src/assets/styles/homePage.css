@@ -18,7 +18,7 @@
     flex: 1;
 }
 .side-menu {
-    width: 160px;
+    width: 128px;
     background-color: var(--left-side-background-color);
     padding: 10px;
 }
