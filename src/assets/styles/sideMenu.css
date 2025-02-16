@@ -8,10 +8,10 @@
     user-select: none;
 }
 .project-item:hover,.project-item.hovered {
-    background-color: #f0f0f0; /* Light gray on hover */
-    color: #333; /* Darker text on hover */
+    background-color: #f0f0f0;
+    color: #333;
 }
 .project-item.active {
-    background-color: #e0e0e0; /* Slightly darker gray for selected */
-    color: #000; /* Black text for selected */
+    background-color: #e0e0e0;
+    color: #000;
 }

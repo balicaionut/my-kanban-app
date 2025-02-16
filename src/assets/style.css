@@ -1,6 +1,8 @@
 @import './styles/homePage.css';
 @import './styles/headerMenu.css';
 @import './styles/sideMenu.css';
+@import './styles/kanban.css';
+@import './styles/notFound.css'
 
 body {
     font-family: var(--font-family);
@@ -10,13 +12,13 @@ body.light-mode {
     /* Light theme colors */
     --background-color: #ffffff;
     --text-color: #000000;
-    --header-background-color: #B2BCC7; /* Light blue for header */
-    --left-side-background-color: #B2BCC7; /* Light blue for header */
+    --header-background-color: #B2BCC7;
+    --left-side-background-color: #B2BCC7;
 }  
 body.dark-mode {
     /* Dark mode colors */
     --background-color: #343a40;
     --text-color: #ffffff;
-    --header-background-color: #2A313A; /* Dark blue for header */
-    --left-side-background-color: #2A313A; /* Dark blue for header */
+    --header-background-color: #2A313A;
+    --left-side-background-color: #2A313A;
 }
