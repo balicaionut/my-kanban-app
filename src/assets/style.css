@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
 @import './styles/homePage.css';
 @import './styles/headerMenu.css';
 @import './styles/sideMenu.css';
 @import './styles/kanban.css';
-@import './styles/notFound.css'
+@import './styles/notFound.css';
 
 body {
-    font-family: var(--font-family);
+    font-family: 'Lexend', sans-serif; 
     margin: 0;
 }
 body.light-mode {
